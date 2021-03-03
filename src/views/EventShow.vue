@@ -1,9 +1,14 @@
 <template>
-  <div></div>
+  <div>
+    <!-- $route.params.id -->
+    <h1>Showing event #{{ id }}</h1>
+  </div>
 </template>
 
 <script>
-export default {}
+export default {
+  props: ['id']
+}
 </script>
 
 <style lang="scss" scoped></style>

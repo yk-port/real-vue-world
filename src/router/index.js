@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import { EventList, EventShow, EventCreate, User } from '@/views'
+import { EventList, EventShow, EventCreate } from '@/views'
 
 Vue.use(VueRouter)
 
@@ -11,20 +11,15 @@ const routes = [
     component: EventList
   },
   {
-    path: '/event',
+    path: '/event/:id',
     name: 'event-show',
-    component: EventShow
+    component: EventShow,
+    props: true
   },
   {
     path: '/event/create',
     name: 'event-create',
     component: EventCreate
-  },
-  {
-    path: '/user/:username',
-    name: 'user',
-    component: User,
-    props: true
   }
 ]
 
