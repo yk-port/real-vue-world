@@ -1,5 +1,7 @@
 <template>
-  <div></div>
+  <div>
+    <h2>This is List Page</h2>
+  </div>
 </template>
 
 <script>
