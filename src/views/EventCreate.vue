@@ -2,14 +2,23 @@
   <div>
     <h1>Create an Event, {{ user.name }}</h1>
     <p>This event is created by {{ user.id }}</p>
+    <p>{{ getEventById(user.id) }}</p>
   </div>
 </template>
 
 <script>
-import { mapState } from 'vuex'
+import { mapState, mapGetters } from 'vuex'
 
 export default {
-  computed: mapState(['user', 'categories']),
+  computed: {
+    ...mapState(['user', 'categories']),
+    ...mapGetters([
+      'catLength',
+      'doneTodos',
+      'activeTodosCount',
+      'getEventById',
+    ]),
+  },
 }
 </script>
 
