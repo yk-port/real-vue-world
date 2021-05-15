@@ -231,6 +231,20 @@
       "date": "",
       "time": "5:00",
       "attendees": []
+    },
+    {
+      "id": 1328918,
+      "category": "housing",
+      "organizer": {
+        "id": 1,
+        "name": "Adam"
+      },
+      "title": "",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
     }
   ]
 }
