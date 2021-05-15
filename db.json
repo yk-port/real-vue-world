@@ -231,20 +231,6 @@
       "date": "",
       "time": "5:00",
       "attendees": []
-    },
-    {
-      "id": 2160233,
-      "category": "nature",
-      "organizer": {
-        "id": 1,
-        "name": "Adam Jahr"
-      },
-      "title": "test",
-      "description": "test",
-      "location": "Japan",
-      "date": "2021-05-12T00:17:00.000Z",
-      "time": "14:00",
-      "attendees": []
     }
   ]
 }
